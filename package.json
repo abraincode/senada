@@ -1,0 +1,25 @@
+{
+  "name": "senada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server" : "mkdir -p public && cp -f frontend/* public/ && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraincode/senada.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abraincode/senada/issues"
+  },
+  "homepage": "https://github.com/abraincode/senada#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-busboy": "^5.0.0",
+    "gulp": "^3.9.1"
+  }
+}

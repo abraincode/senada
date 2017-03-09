@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server" : "mkdir -p public && cp -f frontend/* public/ && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
